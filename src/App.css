@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #3367d6;
+  height: 60px;
+  padding-left: 20px;
+}
+.searchBox {
+  margin-left: 30vw;
+  display: flex;
+  align-items: center;
+}
+.bottomPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historyBox {
+  width: 90vw;
+  box-shadow: 0px 0px 4px 4px #ececec;
+}
+.noHistoryBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.inputBox {
+  background-color: #2850a7;
+  border: none;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+.searchIcon {
+  background-color: #2850a7;
+  border: none;
+  margin-right: 2px;
+  height: 30px;
+  width: 30px;
+}
