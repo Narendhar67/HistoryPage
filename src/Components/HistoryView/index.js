@@ -17,11 +17,15 @@ const HistoryView = props => {
         <p className="domainUrl">{domainUrl}</p>
       </div>
 
-      <button type="button" data-testid="delete" className="deleteButton">
+      <button
+        type="button"
+        onClick={onDeleteClick}
+        data-testid="delete"
+        className="deleteButton"
+      >
         <img
           src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
           alt="delete"
-          onClick={onDeleteClick}
         />
       </button>
     </li>
